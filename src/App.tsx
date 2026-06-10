@@ -127,6 +127,8 @@ const testimonials = [
     }
 ];
 
+
+
 export default function App() {
     // Navigation & Layout
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -610,7 +612,7 @@ ${formData.message}`;
                                 <mask id="intro-svg-mask">
                                     <rect x="0" y="0" width="1000" height="1000" fill="white" />
                                     <image 
-                                        href={theme === 'dark' ? '/logo/Dark Theme Logo.png' : '/logo/Light Theme Logo.png'} 
+                                        href={theme === 'dark' ? 'logo/Dark Theme Logo.png' : 'logo/Light Theme Logo.png'} 
                                         x="445" 
                                         y="385" 
                                         width="110" 
@@ -670,7 +672,7 @@ ${formData.message}`;
                             }}
                         >
                             <image 
-                                href={theme === 'dark' ? '/logo/Dark Theme Logo.png' : '/logo/Light Theme Logo.png'} 
+                                href={theme === 'dark' ? 'logo/Dark Theme Logo.png' : 'logo/Light Theme Logo.png'} 
                                 x="445" 
                                 y="385" 
                                 width="110" 
@@ -729,7 +731,7 @@ ${formData.message}`;
                 <div className="nav-container">
                     <a href="#home" className="logo-container" onClick={(e) => handleNavigation('home', e)}>
                         <img 
-                            src={theme === 'dark' ? '/logo/Dark Theme Logo.png' : '/logo/Light Theme Logo.png'} 
+                            src={theme === 'dark' ? 'logo/Dark Theme Logo.png' : 'logo/Light Theme Logo.png'} 
                             alt="Sumendra Photography Logo" 
                             className="logo-img" 
                         />
@@ -1274,7 +1276,7 @@ ${formData.message}`;
                     <div className="footer-top">
                         <a href="#home" className="logo-container-footer" onClick={(e) => handleNavigation('home', e)}>
                             <img 
-                                src={theme === 'dark' ? '/logo/Dark Theme Logo.png' : '/logo/Light Theme Logo.png'} 
+                                src={theme === 'dark' ? 'logo/Dark Theme Logo.png' : 'logo/Light Theme Logo.png'} 
                                 alt="Sumendra Photography Logo" 
                                 className="logo-img-footer" 
                             />
