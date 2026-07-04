@@ -899,7 +899,7 @@ ${formData.message}`;
                                 <h2 className="section-title">Behind the Lens</h2>
                             </TextReveal>
                             <p className="lead-text">"Photography is not about capturing what you see, but creating a portal to how it felt."</p>
-                            <p className="body-text">I believe in creating images that breathe. Based in India and available worldwide, I specialize in fine-art wedding cinematography and off-beat candid portraits. Drawing inspiration from cinematic lighting, painterly colors, and raw, spontaneous feelings, my goal is to craft visual heirlooms that you will treasure for a lifetime.</p>
+                            <p className="body-text">Based in Agra and Noida, India, and available worldwide, I operate under our parent studio <strong>Summi Creations</strong> to specialize in fine-art wedding cinematography and off-beat candid portraits. Drawing inspiration from cinematic lighting, painterly colors, and raw, spontaneous feelings, my goal is to craft visual heirlooms that you will treasure for a lifetime.</p>
                             <p className="body-text">Whether it's a grand destination wedding or a private, quiet vow exchange in the mountains, I capture the energy, the laughter, and the tears in their truest forms.</p>
                             
                             <div className="stats-grid" ref={statsRef}>
@@ -1296,7 +1296,7 @@ ${formData.message}`;
                     <hr className="footer-divider" />
                     <div className="footer-bottom">
                         <div className="footer-info-group">
-                            <p className="footer-brand-tag">Sumendra Photography &mdash; A Summi Creations Brand</p>
+                            <p className="footer-brand-tag">Sumendra Photography &mdash; The Flagship Brand of Summi Creations | Premium Wedding & Event Photography based in Agra & Noida.</p>
                             <p className="footer-services">Weddings | Corporate Events | Music Videos | Concerts | All Event Photography | Cinematography &amp; Travel</p>
                             <p className="copyright">&copy; 2026 All Rights Reserved by Sumendra Nath</p>
                         </div>

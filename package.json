@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && copy /Y dist\\index.html Click-To-Open-Website.html",
+    "build": "tsc -b && vite build && copy /Y dist\\index.html Click-To-Open-Website.html && xcopy /E /I /Y dist\\Images Images && xcopy /E /I /Y dist\\logo logo && copy /Y dist\\favicon.svg . && copy /Y dist\\icons.svg .",
     "vercel-build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
