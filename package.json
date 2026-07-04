@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && copy /Y dist\\index.html Click-To-Open-Website.html && xcopy /E /I /Y dist\\Images Images && xcopy /E /I /Y dist\\logo logo && copy /Y dist\\favicon.svg . && copy /Y dist\\icons.svg .",
+    "build": "tsc -b && vite build && copy /Y dist\\index.html Click-To-Open-Website.html && xcopy /E /I /Y dist\\Images Images && xcopy /E /I /Y dist\\logo logo && copy /Y dist\\favicon.svg . && copy /Y dist\\icons.svg . && copy /Y dist\\sitemap.xml . && copy /Y dist\\robots.txt . && copy /Y dist\\googleb005f788bdb74a48.html .",
     "vercel-build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
